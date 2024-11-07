@@ -1,0 +1,158 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  line-height: 1.6;
+  color: #e0e0e0;
+  background-color: #121212;
+  height: 100vh;
+  width: 100vw;
+}
+
+header {
+  background-color: #333;
+  padding: 1rem 0;
+}
+
+.navbar ul {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+}
+
+.navbar a {
+  color: #fff;
+  padding: 0.75rem 1.5rem;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+  border: 1px solid #1e1e1e;
+  margin: 0 1rem;
+
+}
+
+.navbar a:hover, .navbar .active {
+  background-color: #555;
+  border-radius: 5px;
+  border: 2px solid #1e1e1e;
+}
+
+main {
+  max-width: 100vh;
+  max-height: 100vh;
+  margin: 2rem auto;
+  padding: 1rem;
+  text-align: center;
+  background-color: #1e1e1e;
+  color: #e0e0e0;
+}
+
+.intro h1 {
+  font-size: 2rem;
+  color: #e0e0e0;
+  margin-bottom: 1rem;
+}
+
+.intro p {
+  margin-bottom: 1rem;
+  font-size: 1.1rem;
+  color: #b0b0b0;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #1e1e1e;
+  color: #e0e0e0;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+}
+form {
+  background-color: #1e1e1e;
+  padding: 1rem;
+  border-radius: 5px;
+}
+
+form input, form textarea, form select {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border: 1px solid #333;
+  border-radius: 5px;
+  background-color: #333;
+  color: #e0e0e0;
+}
+
+form input::placeholder, form textarea::placeholder {
+  color: #b0b0b0;
+}
+
+form button {
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 5px;
+  background-color: #333;
+  color: #e0e0e0;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #444;
+}
+
+.form-result {
+    max-width: 600px;
+    margin: 2rem auto;
+    padding: 1.5rem;
+    background-color: #1e1e1e;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    text-align: left;
+    color: #e0e0e0;
+}
+
+.form-result h1 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    color: #e0e0e0;
+}
+
+.form-result p {
+    font-size: 1.1rem;
+    margin: 0.5rem 0;
+    color: #b0b0b0;
+}
+
+.form-result .btn {
+    display: inline-block;
+    margin-top: 1.5rem;
+    padding: 0.75rem;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.form-result .btn:hover {
+    background-color: #555;
+}
+
+ul, ol {
+  margin: 1rem 0;
+  padding-left: 1.5rem;
+  list-style-position: inside;
+}
+
+li {
+  margin-bottom: 0.5rem;
+  color: #e0e0e0;
+  line-height: 1.6;
+}
